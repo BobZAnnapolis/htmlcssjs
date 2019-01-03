@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Script Test</title>
+  </head>
+  <body>
+    <h1>Current Date and Time</h1>
+    <script>
+  now = new Date();
+
+  localTime = now.toString();
+
+  utcTime = now.toGMTString();
+
+  document.write("<p><strong>Local time: </strong>" + localTime + "</p>")
+  document.write("<p><strong>  UTC time: </strong>" + utcTime + "</p>")
+
+  hrs = now.getHours();
+  mins = now.getMinutes();
+  secs = now.getSeconds();
+  document.write("<h2>");
+  document.write(hrs + ":" + mins + ":" + secs);
+  document.write("</h2>");
+
+</script>
+</body>
+</html>
