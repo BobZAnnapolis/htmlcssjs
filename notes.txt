@@ -1,0 +1,5 @@
+repo stuff comes from various O'Reilly and safarionline books
+
+e.g. https://learning.oreilly.com/library/view/sams-teach-yourself/9780135167069/ch06.xhtml
+
+https://learning.oreilly.com/library/view/sams-teach-yourself/9780135166963/ch02.xhtml

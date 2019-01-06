@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>js file egs</title>
+    <link rel="stylesheet" href="../static/master.css">
+  </head>
+  <body>
+    <div>
+      <h2>calling javascript functions in an external file</h2>
+      <br />
+      <button type="button" name="button" onclick="showMsg('an\nexternal\njscript\nfunction\nbeing\ncalled')">...call a js function...</button>
+      <br />
+    </div>
+
+    <hr />
+    <div>
+      <h2>mouseover mouseout image rollover demo</h2>
+      <img src="../static/taylor1.png" alt="taylor image"
+           onmouseover="this.src='../static/taylor2.png';"
+           onmouseout="this.src='../static/taylor1.png';" />
+      <br />
+    </div>
+
+    <div id="divfooter">
+      <br />
+      <hr />
+      <a href="../index.html">...home...</a>
+      <hr />
+    </div>
+
+   <script type="text/javascript" src="../static/master.js"></script>
+
+  </body>
+</html>
