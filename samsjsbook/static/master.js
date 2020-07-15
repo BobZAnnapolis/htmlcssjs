@@ -1,4 +1,12 @@
 //
+function demoConfirm() {
+  confirm("\nDemo'ing built-in confirm() javascript fcn");
+}
+
+function demoPrompt() {
+  prompt("\nDemo'ing built-in prompt() javascript fcn");
+}
+
 function showMsg(msg) {
   alert(msg);
 }
